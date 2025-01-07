@@ -1,0 +1,24 @@
+{
+  "name": "recorder-singmesong",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_OPTIONS=\"--loader ts-node/esm\" nodemon index.ts",
+    "build": "tsc",
+    "dev": "NODE_OPTIONS=\"--loader ts-node/esm\" nodemon index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.5",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
